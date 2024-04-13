@@ -1,0 +1,70 @@
+html{
+    background-color: #BC7FCD;
+    font-family: cursive;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.country{
+    text-align: center;
+    
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.flag{
+    width: 200px;
+    height: 125px;
+}
+#palau{
+    background-color: skyblue;
+    position: relative;
+}
+#palau > div{
+    background-color: #FFC000;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    left: 37.5px;
+    top: 25px;
+}
+#japan{
+    background-color: white;
+    position: relative;
+}
+#japan > div{
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    left: 62.5px;
+    top: 25px;
+}
+#ukraine{
+    background-color: #0066cc;
+    position: relative;
+}
+#ukraine > div{
+    background-color: #ffcc00;
+    width: 200px;
+    height: 62.5px;
+    position: relative;
+    top: 62.5px;
+}
+#latvia{
+    background-color: #9D2235;
+    position: relative;
+}
+#latvia > div{
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    top: 50px;
+    position: relative;
+}
