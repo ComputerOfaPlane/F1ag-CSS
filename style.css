@@ -14,7 +14,12 @@ h1{
     display: inline-block;
     width: 200px;
     height: 150px;
-    margin: 24px;
+    margin: 23px;
+}
+@media (max-width:600px){
+    .box{
+        margin: 20px;
+    }
 }
 .flag{
     width: 200px;
@@ -148,4 +153,131 @@ h1{
     position: relative;
     left: 37.5px;
     top: 25px;
+}
+#finland{
+    background-color: white;
+    position: relative;
+}
+#finland1{
+    background-color: #003580;
+    width: 200px;
+    height: 33.33px;
+    position: absolute;
+    top: 45.45px;
+}
+#finland2{
+    background-color: #003580;
+    width: 33.33px;
+    height: 125px;
+    position: absolute;
+    left: 55.55px;
+}
+#sweden{
+    background-color: #006AA7;
+    position: relative;
+}
+#sweden1{
+    background-color: #FFCD00;
+    width: 200px;
+    height: 33.33px;
+    position: absolute;
+    top: 45.45px;
+}
+#sweden2{
+    background-color: #FFCD00;
+    width: 33.33px;
+    height: 125px;
+    position: absolute;
+    left: 55.55px;
+}
+#belgium{
+    background-color: black;
+    position: relative;
+}
+#belgium1{
+    background-color: #FDDA24;
+    width: 66.66px;
+    height: 125px;
+    position: absolute;
+    left: 66.66px;
+}
+#belgium2{
+    background-color: #EF3340;
+    width: 66.66px;
+    height: 125px;
+    position: absolute;
+    left: 133.32px;
+}
+#yemen{
+    background-color: white;
+    position: relative;
+}
+#yemen1{
+    background-color: #CE1126;
+    width: 200px;
+    height: 41.66px;
+    position: absolute;
+}
+#yemen2{
+    background-color: black;
+    width: 200px;
+    height: 41.66px;
+    position: absolute;
+    top: 82.72px;
+}
+#netherlands{
+    background-color: white;
+    position: relative;
+}
+#netherlands1{
+    background-color: #AD1D25;
+    width: 200px;
+    height: 41.66px;
+    position: absolute;
+}
+#netherlands2{
+    background-color: #1E4785;
+    width: 200px;
+    height: 41.66px;
+    position: absolute;
+    top: 82.72px;
+}
+#switzerland{
+    background-color: #FF0000;
+    position: relative;
+    width: 125px;
+    margin: auto;
+}
+#switzerland1{
+    background-color: white;
+    width: 23.4375px;
+    height: 78.125px;
+    position: absolute;
+    top: 23.4375px;
+    left: 50.78125px;
+}
+#switzerland2{
+    background-color: white;
+    width: 78.125px;
+    height: 23.4375px;
+    position: absolute;
+    top: 50.78125px;
+    left: 23.4375px;
+}
+#germany{
+    background-color: #FF0000;
+    position: relative;
+}
+#germany1{
+    background-color: black;
+    width: 200px;
+    height: 41.66px;
+    position: absolute;
+}
+#germany2{
+    background-color: #FFCC00;
+    width: 200px;
+    height: 41.64px;
+    position: absolute;
+    top: 84px;
 }
